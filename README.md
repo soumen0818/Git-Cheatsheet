@@ -10,7 +10,7 @@ This e-book serves as a concise yet structured reference for the most commonly u
 
 ### Git Workflow Overview
 
-![Git Workflow Overview](https://res.cloudinary.com/dczuivjqz/image/upload/v1766092135/Gemini_Generated_Image_ygnfbgygnfbgygnf_sxbqga.png)
+![Git Workflow Overview](images/git_workflow.png)
 
 **Key Concepts:**
 - **Working Directory**: Where you modify files
@@ -46,7 +46,7 @@ git clone https://github.com/user/project.git
 
 ### Repository Structure
 
-![Repository Structure](https://res.cloudinary.com/dczuivjqz/image/upload/v1766092195/Gemini_Generated_Image_swo95pswo95pswo9_ppuhfm.png)
+![Repository Structure](images/Project_root.png)
 
 ### 2.2 Git Configuration
 
@@ -99,7 +99,7 @@ File operations in Git involve tracking changes, staging modifications, and comm
 
 ### File States Diagram
 
-![File States Diagram](https://res.cloudinary.com/dczuivjqz/image/upload/v1766091691/Gemini_Generated_Image_fgsyutfgsyutfgsy_yncruf.png)
+![File States Diagram](images/file_states.png)
 
 ### 3.1 Working Directory & Staging Area
 
@@ -172,7 +172,7 @@ Branching allows you to diverge from the main line of development and work indep
 
 ### Branch Workflow
 
-![Branch Workflow](https://res.cloudinary.com/dczuivjqz/image/upload/v1766093032/Gemini_Generated_Image_iclj39iclj39iclj_b0zmhm.png)
+![Branch Workflow](images/Branch_workflow.png)
 
 ### 4.1 Branch Basics
 
@@ -204,7 +204,7 @@ Merges a branch into the current branch. Combines the histories of both branches
 
 ### Merge Types
 
-![Merge Types](https://res.cloudinary.com/dczuivjqz/image/upload/v1766093234/Gemini_Generated_Image_eoofm1eoofm1eoof_q5o2lo.png)
+![Merge Types](images/Git_merge.png)
 
 ### 4.2 Advanced Branching
 
@@ -234,7 +234,7 @@ Interactive rebase to squash, reorder, or edit the last 5 commits. Useful for cl
 
 ### Merge vs Rebase
 
-![Merge vs Rebase](https://res.cloudinary.com/dczuivjqz/image/upload/v1766093375/Gemini_Generated_Image_d4rxd1d4rxd1d4rx_ngjm2s.png)
+![Merge vs Rebase](images/merge&rebase.png)
 
 ---
 
@@ -244,7 +244,7 @@ Remote repositories are versions of your project hosted on the internet or netwo
 
 ### Remote Workflow
 
-![Remote Workflow](https://res.cloudinary.com/dczuivjqz/image/upload/v1766155296/ChatGPT_Image_Dec_19_2025_08_09_33_PM_cuqg8o.png)
+![Remote Workflow](images/Remote_workflow.png)
 
 ### 5.1 Managing Remotes
 
@@ -317,7 +317,7 @@ Git's log system provides powerful tools to explore project history, understand 
 
 ### Commit History Visualization
 
-![Commit History Visualization](https://res.cloudinary.com/dczuivjqz/image/upload/v1766155385/ChatGPT_Image_Dec_19_2025_08_12_54_PM_zqiv6q.png)
+![Commit History Visualization](images/commit_history.png)
 
 ### Log Commands
 
@@ -359,7 +359,7 @@ Tags are references that point to specific commits, typically used to mark relea
 
 ### Tag Types
 
-![Tag types](https://res.cloudinary.com/dczuivjqz/image/upload/v1766155605/ChatGPT_Image_Dec_19_2025_08_16_33_PM_pwiaqo.png)
+![Tag types](images/Git_tags.png)
 
 ### Tag Commands
 
@@ -406,7 +406,7 @@ Stashing allows you to save uncommitted changes temporarily without committing t
 
 ### Stash Workflow
 
-![Stash Workflow](https://res.cloudinary.com/dczuivjqz/image/upload/v1766156005/ChatGPT_Image_Dec_19_2025_08_23_04_PM_sfyg9s.png)
+![Stash Workflow](images/stash_workflow.png)
 
 
 ### Stash Commands
@@ -456,7 +456,7 @@ Git provides powerful tools to modify commit history, undo changes, and fix mist
 
 ### Commit Operations Flow
 
-![Commit Operations Flow](https://res.cloudinary.com/dczuivjqz/image/upload/v1766156271/ChatGPT_Image_Dec_19_2025_08_27_24_PM_o8zidf.png)
+![Commit Operations Flow](images/commit_operation_flow.png)
 
 ### Commit Management Commands
 
@@ -491,7 +491,7 @@ Shows history of HEAD movements, including deleted commits. Useful for recoverin
 
 ### Undo Scenarios
 
-![undo Scenarios](https://res.cloudinary.com/dczuivjqz/image/upload/v1766156406/ChatGPT_Image_Dec_19_2025_08_29_48_PM_ew6dak.png)
+![undo Scenarios](images/undo_scenarios.png)
 
 ---
 
@@ -541,7 +541,7 @@ Submodules and subtrees allow you to include external repositories within your p
 
 ### Submodules vs Subtrees
 
-![Submodules vs Subtrees](https://res.cloudinary.com/dczuivjqz/image/upload/v1766156940/ChatGPT_Image_Dec_19_2025_08_38_41_PM_oecern.png)
+![Submodules vs Subtrees](images/submodules_vs_subtrees.png)
 
 ### Submodule Commands
 
@@ -587,7 +587,7 @@ Git hooks are scripts that run automatically before or after Git events. They en
 
 ### Hook Lifecycle
 
-![Hook Lifecycle](https://res.cloudinary.com/dczuivjqz/image/upload/v1766157181/Hook_Lifecycle_wrcuai.png)
+![Hook Lifecycle](images/Hook_Lifecycle.png)
 
 ### Common Hooks
 
@@ -635,7 +635,7 @@ Patches allow you to share changes as files, useful for email-based workflows or
 
 ### Patch Workflow
 
-![Patch Workflow](https://res.cloudinary.com/dczuivjqz/image/upload/v1766157652/patch_workflow_git_v0o2lb.png)
+![Patch Workflow](images/patch_workflow_git.png)
 
 ### Patch Commands
 
@@ -682,7 +682,7 @@ Git provides tools for finding bugs through binary search, checking repository h
 
 ### Bisect Workflow
 
-![Bisect Workflow](https://res.cloudinary.com/dczuivjqz/image/upload/v1766157889/ChatGPT_Image_Dec_19_2025_08_54_36_PM_xxdlf2.png)
+![Bisect Workflow](images/Bisect_workflow.png)
 
 ### Debugging Commands
 
