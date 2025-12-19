@@ -501,7 +501,7 @@ Cherry-picking allows you to apply specific commits from one branch to another. 
 
 ### Cherry-Pick Workflow
 
-![Cherry-Pick Workflow](https://res.cloudinary.com/dczuivjqz/image/upload/v1766156839/Gemini_Generated_Image_tteoz2tteoz2tteo_qavchz.png)
+![Cherry-Pick Workflow](images/cherry_pick_workflow.png)
 
 ### Cherry-Pick Command
 
@@ -741,7 +741,7 @@ These advanced tips help you work more efficiently with Git and maintain better 
 
 ### Best Practices Checklist
 
-![Best Practices Checklist](https://res.cloudinary.com/dczuivjqz/image/upload/v1766158042/Gemini_Generated_Image_tvpxtltvpxtltvpx_vjxnzl.png)
+![Best Practices Checklist](images/Best_practices.png)
 
 ### Advanced Tips
 
@@ -828,7 +828,7 @@ git config --global alias.visual 'log --oneline --graph --decorate --all'
 
 ### Emergency Commands
 
-![Emergency Commands](https://res.cloudinary.com/dczuivjqz/image/upload/v1766158188/Gemini_Generated_Image_c6h6axc6h6axc6h6_qxzcx7.png)
+![Emergency Commands](./images/Emergency_commands.png)
 
 ---
 
